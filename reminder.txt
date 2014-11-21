@@ -1,0 +1,42 @@
+A. make/update an logo icon of figapp on pc win
+   1. use paint to make or update figapp icon and save as
+	c:\dev2014\ksanagap\figapp_android\images\logo.png
+   2. click button on http://makeappicon.com/ to upload
+	c:\dev2014\ksanagap\figapp_android\images\logo.png
+   3. enter email address to recieve icon.zip (app icons of all size)
+   4. get folders in android of icon.zip to overide folders in
+	c:\dev2014\ksanagap\figapp_android\app\src\main\res
+   5. use paint to make or update figapp banner and save as
+	c:\dev2014\ksanagap\figapp_android\images\banner.png
+   5. update banner in android sdcard
+	c:\dev2014\mjeforth> adb push banner.png /sdcard/figapp/installer
+   6. click run or debug button to recompile figapp_android on android studio
+
+B. add new features for mjeforth
+   1. update mjeforth related jsx and js
+   2. rebuild and run mjeforth
+	c:\dev2014\mjeforth> gulp
+   3. check features of mjeforth via
+	http://127.0.0.1:2556/mjeforth/
+   3. debug js via
+	chrome://inspect/
+
+C. update js to android sdcard
+	c:\dev2014\mjeforth> adb push build.js /sdcard/figapp/mjeforth
+
+
+
+cd mjeforth
+
+	c:\dev2014\mjeforth> gulp deploy -o ..\figtaiwan.github.io\mjeforth
+
+
+
+chrome://inspect/
+
+
+C:\dev2014\ksanagap\figapp_android\app\src\main\assets\banner.png
+
+modify main banner
+C:\dev2014\ksanagap\figapp_android\app\src\main\assets>adb push banner.png /sdca
+rd/figapp/installer

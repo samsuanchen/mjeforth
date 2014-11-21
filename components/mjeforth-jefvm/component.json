@@ -1,0 +1,13 @@
+{
+  "name": "jefvm",
+  "repo": "mjeforth/jefvm",
+  "description": "non visual module",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": ["index.js","v3.js","v3_ext.js","v3_tst.js"],
+  "styles": []
+}
