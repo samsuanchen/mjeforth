@@ -16,7 +16,7 @@ var main = React.createClass({
 <button type="button" onclick="nextInp()">&gt;</button>
 <button type="button" onclick="clearJefTst()">clear</button>
 <button type="button" onclick="saveJefTst()">save</button><br/><br/>
-<pre id='jefTst'>
+<textarea id='jefTst'>
 svg append circle r 42   cx 150 cy 100 fill rgba(255,255,0,.1) stroke black stroke-width .5
 svg append circle r 54   cx 150 cy 100 fill rgba(255,255,0,.1) stroke black stroke-width .5
 svg append circle r 72.2 cx 150 cy 100 fill rgba(255,255,0,.1) stroke black stroke-width .5
@@ -38,7 +38,7 @@ text  append tspan  fill red   text  forth x 97 y 1
 g append rect stroke red fill rgba(255,100,100,.1) x 10 y 10 height 120 width 120
 svg append g  id myTest1  transform translate(40,40),rotate(0,110,60)
 g append use  xlink:href #myGraph1
-</pre><br/><br/>
+</textarea><br/><br/>
 <svg>
 </svg>
       </div>
