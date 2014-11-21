@@ -1,0 +1,13 @@
+{
+  "name": "d3",
+  "repo": "mjeforth/d3",
+  "description": "non visual module",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": ["index.js","d3.js"],
+  "styles": []
+}
