@@ -1,1 +1,11 @@
 .main {}
+body	{ font-size:10px; font-weight:normal; }
+span	{ color:blue	; }
+pre	{ font-size:10px; font-weight:normal; border:1px solid fuchsia; width:100%; }
+inp	{ color:blue	; } 
+err	{ color:red	; }
+tst	{ color:brown; }
+ok	{ color:green; }
+button{ font-size:10px; font-weight:normal; }
+textarea{ font-size:10px; font-weight:normal; border:1px solid fuchsia; height:	80px; width:100%; }
+svg	{ border:2px solid fuchsia; height:200px; width:'100%'; }

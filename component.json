@@ -12,8 +12,7 @@
     "ksanaforge/checkbrowser": "*",
     "ksanaforge/htmlfs": "*",
     "mjeforth/main": "*",
-    "mjeforth/jefvm": "*",
-    "mjeforth/d3": "*"
+    "mjeforth/jefvm": "*"
   },
   "development": {},
   "paths": [
